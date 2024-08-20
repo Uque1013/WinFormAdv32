@@ -62,6 +62,11 @@
             this.toolStripSeparator5 = new System.Windows.Forms.ToolStripSeparator();
             this.자동줄바꿈ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.글꼴ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.확대하기축소하기ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.상태표시줄ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.확대ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.축소ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.확대하기축소하기기본값복원ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -134,9 +139,13 @@
             // 
             // 보기ToolStripMenuItem
             // 
+            this.보기ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.확대하기축소하기ToolStripMenuItem,
+            this.상태표시줄ToolStripMenuItem});
             this.보기ToolStripMenuItem.Name = "보기ToolStripMenuItem";
             this.보기ToolStripMenuItem.Size = new System.Drawing.Size(53, 24);
             this.보기ToolStripMenuItem.Text = "보기";
+            this.보기ToolStripMenuItem.Click += new System.EventHandler(this.보기ToolStripMenuItem_Click);
             // 
             // 도움말ToolStripMenuItem
             // 
@@ -308,6 +317,40 @@
             this.글꼴ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.글꼴ToolStripMenuItem.Text = "글꼴";
             // 
+            // 확대하기축소하기ToolStripMenuItem
+            // 
+            this.확대하기축소하기ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.확대ToolStripMenuItem,
+            this.축소ToolStripMenuItem,
+            this.확대하기축소하기기본값복원ToolStripMenuItem});
+            this.확대하기축소하기ToolStripMenuItem.Name = "확대하기축소하기ToolStripMenuItem";
+            this.확대하기축소하기ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.확대하기축소하기ToolStripMenuItem.Text = "확대하기/축소하기";
+            // 
+            // 상태표시줄ToolStripMenuItem
+            // 
+            this.상태표시줄ToolStripMenuItem.Name = "상태표시줄ToolStripMenuItem";
+            this.상태표시줄ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.상태표시줄ToolStripMenuItem.Text = "상태 표시줄";
+            // 
+            // 확대ToolStripMenuItem
+            // 
+            this.확대ToolStripMenuItem.Name = "확대ToolStripMenuItem";
+            this.확대ToolStripMenuItem.Size = new System.Drawing.Size(303, 26);
+            this.확대ToolStripMenuItem.Text = "확대";
+            // 
+            // 축소ToolStripMenuItem
+            // 
+            this.축소ToolStripMenuItem.Name = "축소ToolStripMenuItem";
+            this.축소ToolStripMenuItem.Size = new System.Drawing.Size(303, 26);
+            this.축소ToolStripMenuItem.Text = "축소";
+            // 
+            // 확대하기축소하기기본값복원ToolStripMenuItem
+            // 
+            this.확대하기축소하기기본값복원ToolStripMenuItem.Name = "확대하기축소하기기본값복원ToolStripMenuItem";
+            this.확대하기축소하기기본값복원ToolStripMenuItem.Size = new System.Drawing.Size(303, 26);
+            this.확대하기축소하기기본값복원ToolStripMenuItem.Text = "확대하기/축소하기 기본값 복원";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
@@ -360,6 +403,11 @@
         private System.Windows.Forms.ToolStripMenuItem 시간날짜ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 자동줄바꿈ToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem 글꼴ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 확대하기축소하기ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 확대ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 축소ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 확대하기축소하기기본값복원ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem 상태표시줄ToolStripMenuItem;
     }
 }
 
