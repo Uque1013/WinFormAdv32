@@ -31,5 +31,10 @@ namespace WinFormAdv32
         {
 
         }
+
+        private void 서식ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
