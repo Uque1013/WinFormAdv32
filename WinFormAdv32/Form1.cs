@@ -21,5 +21,15 @@ namespace WinFormAdv32
         {
 
         }
+
+        private void 편집ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void 인쇄ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
