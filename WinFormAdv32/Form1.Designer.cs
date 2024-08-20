@@ -184,6 +184,7 @@
             this.열기ToolStripMenuItem.Name = "열기ToolStripMenuItem";
             this.열기ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.열기ToolStripMenuItem.Text = "열기";
+            this.열기ToolStripMenuItem.Click += new System.EventHandler(this.열기ToolStripMenuItem_Click);
             // 
             // 저장ToolStripMenuItem
             // 
